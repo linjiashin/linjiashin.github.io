@@ -3,27 +3,21 @@ body{
 	margin: 1cm 3cm;
 }
 h1{
-	color:#D68B00;
+	background-color:#ebd8d86a;
 	text-align:center;
-	border-style:double;
-	border-width:10px;
+	border-style:solid;
+	border-width:3px;
 	margin:1cm 10cm; 
+	padding:4px 0px;
 }
-#section1 h3{	
-	width:7%;
-	border-style:dashed;
-	border-width:3px;;
-	border-color:#c55c5c;
-	padding:0.2em;
-}
-#section2 h3,#section3 h3{
+#section1 h3,#section2 h3{
 	width:4cm;
 	border-style:dashed;
 	border-width:3px;
 	border-color:#c55c5c;
 	padding:0.2em;
 }
-#section4 h3,#section5 h3{
+#section3 h3,#section4 h3{
 	width:12%;
 	border-style:dashed;
 	border-width:3px;
