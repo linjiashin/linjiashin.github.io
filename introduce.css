@@ -1,21 +1,23 @@
+
 h1{
-    background-color:#97CBFF;
-    text-align: center;
-    border-style:solid;
-	border-width:3px;
-	margin:1cm 13cm; 
-	padding:4px 0px;
+     background-color:white;
+     text-align:center;
+     padding: 0px 0px 20px 0px;
+     margin: 0px;
 }
-h3{ 
+body{
+    margin:1cm 3cm;
+}
+h6{ 
     background-color:#97CBFF;
-    margin: 0cm 8cm 0cm 8cm;
+    margin: 1cm 5cm 0cm 5cm;
     padding:0px 0px 0px 10px;
     border-style:solid;
 }
 #link{
-    font-size:20px;
+    font-size:19px;
     background-color:#97cbff48 ;
-    margin: 0cm 8cm 0cm 8cm;
+    margin: 0cm 5cm 0cm 5cm;
     padding:5px 0px 0px 30px;
     border-style:solid;
     border-top:none
@@ -32,4 +34,37 @@ h3{
 }
 section{
     margin:2cm 5cm 0cm 5cm;
+}
+nav a {
+	color:inherit;
+	text-decoration:none;
+	font-size:1.3rem;
+	display:block;
+	padding:10px;
+}
+nav > ul {
+	list-style:none;
+	background-color:#97cbff48;
+	margin:0;
+	padding:0;
+	display: flex;
+}
+nav a:hover {
+	background-color:#97CBFF;
+	color:white;
+}
+inline-block-nav > li {
+	display:inline-block;
+}
+nav > ul {
+	justify-content: space-around;
+}
+header a{
+    color:inherit;
+    text-decoration:none;
+} 
+header :hover{
+    border-style:ins;
+	color:black;
+    padding:10px;
 }

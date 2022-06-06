@@ -1,19 +1,20 @@
 h1{
-    background-color:rgba(72, 2, 2, 0.469);
-    text-align: center;
-    border-style:solid;
-	border-width:3px;
-	margin:1cm 10cm; 
-	padding:4px 0px;
+    background-color:white;
+	text-align:center;
+	padding: 0px 0px 20px 0px;
+    margin: 0px;
 }
-h3{ 
+body{
+    margin:1cm 3cm;
+}
+h6{ 
     background-color:rgba(72, 2, 2, 0.469);
     margin: 1cm 3cm 0cm 3cm;
     padding:0px 10px 0px 10px;
     border-style:solid;
 }
 p{
-    font-size:20px;
+    font-size:19px;
     background-color:rgba(81, 22, 22, 0.127) ;
     margin: 0cm 3cm 1cm 3cm;
     padding:10px;
@@ -38,5 +39,38 @@ p{
     border-style:ins;
     background-color:rgba(72, 2, 2, 0.469);
 	color:white;
+    padding:10px;
+}
+nav a {
+	color:inherit;
+	text-decoration:none;
+	font-size:1.3rem;
+	display:block;
+	padding:10px;
+}
+nav > ul {
+	list-style:none;
+	background-color:rgba(81, 22, 22, 0.127);
+	margin:0;
+	padding:0;
+	display: flex;
+}
+nav a:hover {
+	background-color:rgba(72, 2, 2, 0.469);
+	color:white;
+}
+inline-block-nav > li {
+	display:inline-block;
+}
+nav > ul {
+	justify-content: space-around;
+}
+header a{
+    color:inherit;
+    text-decoration:none;
+} 
+header :hover{
+    border-style:ins;
+	color:black;
     padding:10px;
 }
