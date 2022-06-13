@@ -32,7 +32,7 @@ h6{
     padding:10px;
 }
 section{
-    margin:2cm 5cm 0cm 5cm;
+    margin:5cm 2cm 5cm 2cm;
 }
 nav a {
 	color:inherit;
@@ -43,7 +43,7 @@ nav a {
 }
 nav > ul {
 	list-style:none;
-	background-color:#97cbff48;
+	background-color:#dde9f4;
 	margin:0;
 	padding:0;
 	display: flex;

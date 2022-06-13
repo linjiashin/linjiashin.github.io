@@ -8,15 +8,15 @@ h1{
 	padding: 0px 0px 20px 0px;
 	margin: 0cm;
 }
-#section1 h3,#section2 h3{
-	width:4cm;
+#section1 h5,#section2 h5{
+	width:175px;
 	border-style:dashed;
 	border-width:3px;
 	border-color:#c55c5c;
 	padding:0.2em;
 }
-#section3 h3,#section4 h3{
-	width:12%;
+#section3 h5,#section4 h5{
+	width:155px;
 	border-style:dashed;
 	border-width:3px;
 	border-color:#c55c5c;

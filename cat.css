@@ -1,7 +1,7 @@
 h1{
     background-color:white;
 	text-align:center;
-	padding: 0px 0px 20px 0px;
+	padding: 20px 20px 20px 20px;
     margin: 0px;
 }
 body{
@@ -50,7 +50,7 @@ nav a {
 }
 nav > ul {
 	list-style:none;
-	background-color:rgba(81, 22, 22, 0.127);
+	background-color:rgb(220, 209, 209);
 	margin:0;
 	padding:0;
 	display: flex;
@@ -73,4 +73,13 @@ header :hover{
     border-style:ins;
 	color:black;
     padding:10px;
+}
+#pictures{
+    margin:150px 30px 5px 30px;
+}
+#pictures2{
+    margin:5px 30px 5px 30px;
+}
+#pictures3{
+    margin:5px 30px 10px 30px;
 }

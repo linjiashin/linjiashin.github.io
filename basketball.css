@@ -1,6 +1,7 @@
 h1{
     background-color:white;
 	text-align:center;
+    margin:0px;
 	padding: 0px 0px 20px 0px;
 }
 body{
@@ -35,7 +36,7 @@ nav a {
 }
 nav > ul {
 	list-style:none;
-	background-color:#ea4d0430;
+	background-color:#f7d7c8;
 	margin:0;
 	padding:0;
 	display: flex;
